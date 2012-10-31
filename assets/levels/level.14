@@ -1,0 +1,63 @@
+{
+
+position: [0, 0.5],
+scale: 0.18,
+
+races: [
+	{
+	color: [0.0, 1.0, 0.0, 1.0],
+ 	grow: 1.0
+	},
+	{
+	color: [1.0, 0.8, 0.0, 1.0],
+	grow: 0.7
+	},
+	{
+	color: [0.0, 0.5, 0.7, 1.0],
+	grow: 0.7
+	},
+	{
+	color: [0.5, 0.0, 1.0, 1.0],
+	grow: 0.7
+	},
+	{
+	color: [1.0, 0.0, 0.1, 1.0],
+	grow: 0.7
+	}
+],
+
+
+planets: [
+	{
+	position: [0, 0],
+	radius: 1.0
+	},
+	{
+	position: [0, 4],
+	radius: 0.7,
+	trees: [ { race:0, size:0.5, dir:[0, 4] } ]
+	},
+	{
+	position: [-3.8, 1.25],
+	radius: 0.7,
+	trees: [ { race:1, size:0.5, dir:[-3.8, 1.25] } ]
+	},
+	{
+	position: [3.8, 1.25],
+	radius: 0.7, 
+	trees: [ { race:2, size:0.5, dir:[3.8, 1.25] } ]
+	},
+	{
+	position: [2.35, -3.25],
+	radius: 0.7, 
+	trees: [ { race:3, size:0.5, dir:[2.35, -3.25] } ]
+	},
+	{
+	position: [-2.35, -3.25],
+	radius: 0.7, 
+	trees: [ { race:4, size:0.5, dir:[-2.35, -3.25] } ]
+	}
+]
+
+
+}

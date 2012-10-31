@@ -1,0 +1,256 @@
+{
+
+position: [0, 5],
+scale: 0.15,
+
+blackholes: [
+	{
+	position: [0, 0],
+	radius: 0.7
+	}
+],
+
+races: [
+	{
+	color: [0.0, 1.0, 0.0, 1.0],
+ 	grow: 1.0
+	},
+	{
+	color: [1.0, 0.7, 0.0, 1.0],
+	grow: 1.1,
+	strength: 0.8
+	},
+	{
+	color: [0.0, 1.0, 0.7, 1.0],
+	grow: 1.0,
+	strength: 0.9
+	},
+	{
+	color: [0.5, 0.0, 1.0, 1.0],
+	grow: 0.9,
+	strength: 1.0
+	},
+	{
+	color: [1.0, 0.0, 0.1, 1.0],
+	grow: 0.8,
+	strength: 1.1
+	},
+	{
+	color: [0.0, 0.1, 1.0, 1.0],
+	grow: 0.7,
+	strength: 1.2
+	}
+],
+
+
+planets: [
+	{
+	position: [9, 0],
+	radius: 0.25
+	},
+	{
+	position: [-9, 0],
+	radius: 0.25
+	},
+	{
+	position: [0, 9],
+	radius: 0.25
+	},
+	{
+	position: [-0, -9],
+	radius: 0.25
+	},
+	{
+	position: [7.8, 4.5],
+	radius: 0.25
+	},
+	{
+	position: [4.5, 7.8],
+	radius: 0.25
+	},
+	{
+	position: [-7.8, 4.5],
+	radius: 0.25
+	},
+	{
+	position: [-4.5, 7.8],
+	radius: 0.25
+	},
+	{
+	position: [-7.8, -4.5],
+	radius: 0.25
+	},
+	{
+	position: [-4.5, -7.8],
+	radius: 0.25
+	},
+	{
+	position: [7.8, -4.5],
+	radius: 0.25
+	},
+	{
+	position: [4.5, -7.8],
+	radius: 0.25
+	},
+
+
+	{
+	position: [7.5, 0],
+	radius: 0.2
+	},
+	{
+	position: [-7.5, 0],
+	radius: 0.2
+	},
+	{
+	position: [0, 7.5],
+	radius: 0.2,
+	trees: [ { race:0, size:0.25 } ]
+	},
+	{
+	position: [0, -7.5],
+	radius: 0.2,
+	trees: [ { race:3, size:0.25 } ]
+	},
+	{
+	position: [6.5, 3.75],
+	radius: 0.2,
+	trees: [ { race:2, size:0.25 } ]
+	},
+	{
+	position: [3.75, 6.5],
+	radius: 0.2
+	},
+	{
+	position: [-6.5, 3.75],
+	radius: 0.2,
+	trees: [ { race:1, size:0.25 } ]
+	},
+	{
+	position: [-3.75, 6.5],
+	radius: 0.2
+	},
+	{
+	position: [-6.5, -3.75],
+	radius: 0.2,
+	trees: [ { race:4, size:0.25 } ]
+	},
+	{
+	position: [-3.75, -6.5],
+	radius: 0.2
+	},
+	{
+	position: [6.5, -3.75],
+	radius: 0.2,
+	trees: [ { race:5, size:0.25 } ]
+	},
+	{
+	position: [3.75, -6.5],
+	radius: 0.2
+	},
+
+
+	{
+	position: [4.5, 0],
+	radius: 0.18
+	},
+	{
+	position: [-4.5, 0],
+	radius: 0.17
+	},
+	{
+	position: [0, 4.5],
+	radius: 0.17
+	},
+	{
+	position: [0, -4.5],
+	radius: 0.17
+	},
+	{
+	position: [4, 2.25],
+	radius: 0.17
+	},
+	{
+	position: [2.25, 4],
+	radius: 0.17
+	},
+	{
+	position: [-4, 2.25],
+	radius: 0.17
+	},
+	{
+	position: [-2.25, 4],
+	radius: 0.17
+	},
+	{
+	position: [-4, -2.25],
+	radius: 0.17
+	},
+	{
+	position: [-2.25, -4],
+	radius: 0.17
+	},
+	{
+	position: [4, -2.25],
+	radius: 0.17
+	},
+	{
+	position: [2.25, -4],
+	radius: 0.17
+	},
+
+
+	{
+	position: [6, 0],
+	radius: 0.2
+	},
+	{
+	position: [-6, 0],
+	radius: 0.2
+	},
+	{
+	position: [0, 6],
+	radius: 0.2
+	},
+	{
+	position: [0, -6],
+	radius: 0.2
+	},
+	{
+	position: [5.2, 3],
+	radius: 0.2
+	},
+	{
+	position: [3, 5.2],
+	radius: 0.2
+	},
+	{
+	position: [-5.2, 3],
+	radius: 0.2
+	},
+	{
+	position: [-3, 5.2],
+	radius: 0.2
+	},
+	{
+	position: [-5.2, -3],
+	radius: 0.2
+	},
+	{
+	position: [-3, -5.2],
+	radius: 0.2
+	},
+	{
+	position: [5.2, -3],
+	radius: 0.2
+	},
+	{
+	position: [3, -5.2],
+	radius: 0.2
+	}
+
+
+]
+
+
+}

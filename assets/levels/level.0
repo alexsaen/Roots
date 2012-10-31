@@ -1,0 +1,31 @@
+{
+
+position: [0, 0],
+scale: 0.5,
+
+races: [
+	{
+	color: [0, 1.0, 0, 1.0],
+	grow: 0.3
+	},
+	{
+	color: [1.0, 0.0, 0.3, 1.0],
+	grow: 0.001
+	}
+],
+
+
+planets: [
+	{
+	position: [-1.5, -0.5],
+	radius: 0.5,
+	trees: [ { race: 0, size: 0.9, dir: [0.25, 1] } ]
+	},
+	{
+	position: [1.5, 0.5],
+	radius: 0.25,
+	trees: [ { race: 1, size: 0.5, dir: [-0.5, 1] } ]
+	}
+]
+
+}
